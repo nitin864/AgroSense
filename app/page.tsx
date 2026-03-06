@@ -2,7 +2,18 @@
 
 import { useEffect, useRef, useState } from "react";
 
- 
+/* ─────────────────────────────────────────────
+   AgroSense — Climate-Resilient Agriculture
+   Landing Page  ·  page.tsx
+   Drop into:  app/page.tsx  (Next.js 13+ App Router)
+   Fonts: add to app/layout.tsx or globals.css →
+     @import url('https://fonts.googleapis.com/css2?
+       family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,900
+       &family=Syne:wght@400;600;700;800
+       &family=DM+Mono:wght@300;400;500
+       &display=swap');
+───────────────────────────────────────────── */
+
 /* ── inline styles object (no Tailwind needed beyond utilities) ── */
 const S: Record<string, React.CSSProperties> = {
   /* reset / base */
